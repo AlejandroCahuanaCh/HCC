@@ -15,14 +15,14 @@
     });
   });
 
-	// navbarDropdown
-	if ($(window).width() < 992) {
-		$('.has-dropdown .dropdown-toggle').on('click', function () {
-			$(this).siblings('.dropdown-menu').animate({
-				height: 'toggle'
-			}, 300);
-		});
-	}
+  // navbarDropdown
+  if ($(window).width() < 992) {
+    $('.has-dropdown .dropdown-toggle').on('click', function () {
+      $(this).siblings('.dropdown-menu').animate({
+        height: 'toggle'
+      }, 300);
+    });
+  }
 
 
   // SCROLL TO TOP
@@ -43,17 +43,17 @@
       $('.site-navigation,.trans-navigation').removeClass('header-white');
     }
   });
-  
 
-	// scroll-to-top
-	if ($('#scroll-to-top').length) {
-		$('#scroll-to-top').on('click', function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 600);
-			return false;
-		});
-	}
+
+  // scroll-to-top
+  if ($('#scroll-to-top').length) {
+    $('#scroll-to-top').on('click', function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 600);
+      return false;
+    });
+  }
 
 
   // Closes responsive menu when a scroll trigger link is clicked
@@ -62,3 +62,4 @@
   });
 
 })(jQuery);
+

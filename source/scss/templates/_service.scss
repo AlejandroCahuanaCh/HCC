@@ -78,6 +78,17 @@ h5.subtitle {
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 10px;
 
+  img {
+    width: 150px;
+    /* Establece un ancho específico para todas las imágenes */
+    height: 150px;
+    /* Establece una altura específica para todas las imágenes */
+    object-fit: cover;
+    /* Ajusta la imagen para llenar el contenedor, manteniendo la relación de aspecto */
+    border-radius: 10px;
+    /* Agrega esquinas redondeadas a las imágenes */
+  }
+
   i {
     font-size: 70px;
     margin-bottom: 30px;

@@ -54,6 +54,7 @@
     font-size: 14px;
     text-transform: capitalize;
   }
+
   i {
     width: 25px;
   }
@@ -78,6 +79,7 @@
     background: #94959a;
   }
 }
+
 .current-year {
   color: $primary-color !important;
 }
@@ -91,7 +93,7 @@
 .scroll-to-top {
   position: fixed;
   content: "";
-  right: 30px;
+  left: 30px;
   bottom: 50px;
   z-index: 999;
   background: $primary-color;
@@ -116,6 +118,38 @@
 .scroll-to-top:focus {
   text-decoration: none;
 }
+
+/*-----------------------------
+ WHATSAPP
+--------------------------------*/
+
+#h5b_whatsapp_chat {
+  position: fixed;
+  right: 30px;
+  /* ajusta la posición horizontal del botón al lado derecho */
+  bottom: 50px;
+  /* ajusta la posición vertical del botón */
+  z-index: 999;
+  background: $primary-color;
+  /* Color de fondo del botón */
+  color: $light !important;
+  /* Color del texto del botón */
+  border-radius: 100%;
+  /* Hace que el botón tenga forma circular */
+  opacity: 1;
+  /* Opacidad del botón, actualmente está invisible inicialmente */
+
+
+  img {
+    width: 50px;
+    /* ajusta el ancho de la imagen del botón */
+    height: 50px;
+    /* ajusta la altura de la imagen del botón */
+    border-radius: 100%;
+    /* Hace que la imagen tenga forma circular */
+  }
+}
+
 
 .reveal {
   transition: all .3s;

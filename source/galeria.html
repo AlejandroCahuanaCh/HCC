@@ -1,0 +1,25 @@
+@@include('header.htm')
+
+@@include('blocks/nav-2.htm')
+
+@@include('blocks/slider-2.htm')
+
+@@include('blocks/portfolio-2.htm')
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')
+
+<!-- Al final de galeria.html -->
+<script>
+    // Espera a que la página se cargue completamente
+    document.addEventListener("DOMContentLoaded", function () {
+        // Encuentra el elemento con el identificador work-wrap
+        var portfolioSection = document.getElementById('work-wrap');
+
+        // Si se encuentra la sección, desplaza la pantalla hacia ella
+        if (portfolioSection) {
+            portfolioSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+</script>

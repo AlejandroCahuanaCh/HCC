@@ -3,33 +3,33 @@ window.marker = null;
 function initialize() {
   var map;
 
-  var nottingham = new google.maps.LatLng(51.507351, -0.127758);
+  var nottingham = new google.maps.LatLng(-16.400769338965627, -71.50756304041286);
 
   var style = [{
     "featureType": "road.highway",
     "elementType": "geometry",
     "stylers": [{
-        "saturation": -100
-      },
-      {
-        "lightness": -8
-      },
-      {
-        "gamma": 1.18
-      }
+      "saturation": -100
+    },
+    {
+      "lightness": -8
+    },
+    {
+      "gamma": 1.18
+    }
     ]
   }, {
     "featureType": "road.arterial",
     "elementType": "geometry",
     "stylers": [{
-        "saturation": -100
-      },
-      {
-        "gamma": 1
-      },
-      {
-        "lightness": -24
-      }
+      "saturation": -100
+    },
+    {
+      "gamma": 1
+    },
+    {
+      "lightness": -24
+    }
     ]
   }, {
     "featureType": "poi",
